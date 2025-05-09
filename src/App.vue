@@ -59,7 +59,7 @@
     </div>
 
     <footer>
-      &copy; 2025 Tim Aplikasi • Dinas Komunikasi dan Informatika Provinsi Jawa Timur
+      &copy; 2025. Tim Aplikasi • Dinas Komunikasi dan Informatika Provinsi Jawa Timur
     </footer>
   </div>
 </template>
