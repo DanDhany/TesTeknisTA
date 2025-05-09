@@ -77,7 +77,7 @@ export default {
       const countdown = document.getElementById("countdown");
       const linkContainer = document.getElementById("link-container");
 
-      const encryptedLink = "aHR0cHM6Ly9zLmlkL1Rlc1Rla25pc0Z1bGxzdGFjayI="; // Base64 encoded link
+      const encryptedLink = "aHR0cHM6Ly9zLmlkL1Rlc1Rla25pc0Z1bGxzdGFjaw==";
 
       const updateCountdown = () => {
         const now = new Date().getTime();
