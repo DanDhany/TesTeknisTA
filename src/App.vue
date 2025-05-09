@@ -1,82 +1,68 @@
 <template>
   <div id="app">
     <header>
-      <h1>Halo, Para Peserta Tes 👋</h1>
-      <p>Terima kasih telah berpartisipasi dalam proses seleksi <strong>Tenaga Ahli Dinas Komunikasi dan Informatika
-          Provinsi Jawa Timur</strong>. Kami sangat mengapresiasi waktu dan usaha yang telah Anda berikan.</p>
+      <h1>Halo, Para Peserta Test 👋</h1>
+      <p>Terima kasih atas partisipasi Anda dalam proses seleksi Tenaga Ahli Kominfo Jatim.</p>
     </header>
 
-    <main class="container">
-      <section>
-        <p>Berikut adalah beberapa informasi penting terkait tahapan <strong>Tes Teknis</strong>:</p>
+    <div class="container">
+      <p>Berikut adalah informasi penting terkait tahapan <strong>Tes Teknis:</strong></p>
 
-        <h2>📅 Waktu dan Durasi Tes</h2>
+      <div id="countdown">⏳ Menghitung waktu menuju tes...</div>
+      <div id="link-container"></div>
+
+      <p class="section-title">📅 Waktu dan Durasi Tes</p>
+      <ul>
+        <li>Tes dimulai: <strong>Sabtu, 10 Mei 2025 pukul 08.00 s.d. 15.00 WIB</strong> (7 Jam)</li>
+        <li>Pastikan Anda berada di tempat yang nyaman dan siap sebelum tes dimulai</li>
+      </ul>
+
+      <p class="section-title">💻 Format Tes</p>
+      <ul>
+        <li>Pelaksanaan tes <strong>secara daring</strong> di tempat masing-masing</li>
+        <li>Soal dapat diakses melalui link (akan muncul otomatis saat waktu tiba)</li>
+        <li>Selesaikan seluruh tugas sesuai instruksi</li>
+        <li>Buat dokumentasi instalasi dan petunjuk di <code>README.md</code></li>
+        <li>Gunakan metode deployment seperti <strong>Docker</strong> untuk nilai lebih</li>
+        <li>Pastikan program bebas dari error</li>
+      </ul>
+
+      <p class="section-title">📤 Instruksi Pengumpulan</p>
+      <ul>
+        <li>Kumpulkan melalui <strong>GitHub Repository pribadi</strong></li>
+        <li>Undang reviewer dengan permission read & clone:</li>
         <ul>
-          <li>Tes akan dimulai pada <strong>Sabtu, 10 Mei 2025 pukul 08.00 s.d. 15.00 WIB (7 jam)</strong>.</li>
-          <li>Pastikan Anda mempersiapkan diri dengan baik dan berada di tempat yang nyaman selama pelaksanaan tes.</li>
+          <li>ifiqhan@gmail.com</li>
+          <li>martin.ivo.aptika@gmail.com</li>
+          <li>rino.ramadhani@gmail.com</li>
+          <li>dimas6597@gmail.com</li>
         </ul>
+        <li>Waktu pengumpulan dinilai dari <strong>commit terakhir</strong></li>
+        <li>Konfirmasi melalui form ini: <a href="https://s.id/SubmitTest" target="_blank">https://s.id/SubmitTest</a>
+        </li>
+      </ul>
 
-        <h2>💻 Format Tes</h2>
-        <ul>
-          <li>Pelaksanaan tes dilakukan secara <strong>daring</strong> di tempat masing-masing.</li>
-          <li>Tes terdiri dari beberapa tugas yang dapat diakses melalui link berikut:<br /><span id="countdown">⏳
-              Menunggu waktu akses...</span>
-            <div id="link-container"></div>
-          </li>
-          <li>Silakan selesaikan seluruh tugas sesuai dengan instruksi yang disediakan.</li>
-          <li>Buat dokumentasi instalasi dan petunjuk penggunaan <strong>SECARA DETAIL</strong> pada file
-            <code>README.md</code>.
-          </li>
-          <li>Penggunaan metode deployment seperti <strong>Docker</strong> akan menjadi nilai tambah.</li>
-          <li>Pastikan program berjalan lancar dan <strong>bebas dari error</strong>.</li>
-        </ul>
+      <p class="section-title">🧪 Instruksi Demo Aplikasi</p>
+      <ul>
+        <li><strong>Rabu, 14 Mei 2025, pukul 09.00 WIB</strong></li>
+        <li>Tempat: <em>Kantor Dinas Kominfo Jatim, Lantai 3</em></li>
+        <li>Pastikan laptop dan aplikasi siap demo</li>
+        <li>Lakukan pengetesan sebelum giliran</li>
+      </ul>
 
-        <h2>📤 Instruksi Pengumpulan</h2>
-        <ul>
-          <li>Hasil kerja dikumpulkan melalui <strong>GitHub Repository pribadi</strong>.</li>
-          <li>Undang reviewer dengan permission <strong>read & clone</strong> ke akun berikut:</li>
-          <ul>
-            <li>ifiqhan@gmail.com</li>
-            <li>martin.ivo.aptika@gmail.com</li>
-            <li>rino.ramadhani@gmail.com</li>
-            <li>dimas6597@gmail.com</li>
-          </ul>
-          <li>Waktu pengumpulan dilihat dari <strong>commit terakhir</strong> pada repository Anda.</li>
-          <li>Setelah selesai, lakukan konfirmasi melalui formulir: <a href="https://s.id/SubmitTest"
-              target="_blank">https://s.id/SubmitTest</a></li>
-        </ul>
-
-        <h2>🧪 Instruksi Demo Aplikasi</h2>
-        <ul>
-          <li>Peserta hadir langsung ke lokasi wawancara sesuai jadwal:</li>
-          <li><strong>Hari/Tanggal:</strong> Rabu, 14 Mei 2025</li>
-          <li><strong>Waktu:</strong> 09.00 WIB – selesai</li>
-          <li><strong>Tempat:</strong> Bidang Aplikasi Informatika (Lantai 3)<br />Kantor Dinas Komunikasi dan
-            Informatika Provinsi Jawa Timur<br />Jl. Ahmad Yani No. 242-244, Gayungan, Surabaya</li>
-          <li>Pastikan laptop dan aplikasi Anda siap untuk demo sebelum giliran Anda tiba.</li>
-          <li>Lakukan pengetesan secara mandiri sebelum sesi dimulai.</li>
-        </ul>
-
-        <h2>📞 Kontak Informasi</h2>
-        <ul>
-          <li><strong>Ramadhany Krismaliq Sjamdra</strong><br />Email: <a
-              href="mailto:ramadhany.krsj@jatimprov.go.id">ramadhany.krsj@jatimprov.go.id</a><br />WA: +62 851-5533-6566
-          </li>
-          <li><strong>Dimas Ikbalul Aulia</strong><br />WA: +62 898-3498-757</li>
-        </ul>
-
-        <p>Semoga sukses dalam mengikuti tahapan seleksi ini. Salam hangat,</p>
-        <p><strong>Tim Aplikasi – Bidang Aplikasi Informatika<br />Dinas Komunikasi dan Informatika Provinsi Jawa
-            Timur</strong></p>
-      </section>
-    </main>
+      <p class="section-title">📞 Kontak</p>
+      <ul>
+        <li>Ramadhany Krismaliq Sjamdra – <a
+            href="mailto:ramadhany.krsj@jatimprov.go.id">ramadhany.krsj@jatimprov.go.id</a> / WA: +62 851-5533-6566</li>
+        <li>Dimas Ikbalul Aulia – WA: +62 898-3498-757</li>
+      </ul>
+    </div>
 
     <footer>
-      &copy; 2025 Dinas Komunikasi dan Informatika Provinsi Jawa Timur
+      &copy; 2025 Tim Aplikasi • Dinas Komunikasi dan Informatika Provinsi Jawa Timur
     </footer>
   </div>
 </template>
-
 
 <script>
 export default {
