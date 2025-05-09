@@ -120,13 +120,14 @@ export default {
 
 <style scoped>
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', sans-serif;
   margin: 0;
   background: #f4f6f8;
   color: #333;
   line-height: 1.6;
   padding: 0 20px;
 }
+
 
 header {
   background-color: #1e88e5;
